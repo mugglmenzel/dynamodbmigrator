@@ -2,6 +2,7 @@ DynamoDB Migrator
 =================
 
 The DynamoDB Migrator tool is an elegant and quick implementation of a migration tool for DynamoDB tables (API v2) between AWS accounts.
+The DynamoDB Migrator uses the AWS Java SDK 1.4.2.
 
 Usage
 -----
