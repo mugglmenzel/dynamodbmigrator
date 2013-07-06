@@ -24,6 +24,10 @@ object DynamoDBMigrator extends App {
   val tablesPrefix = "prefix-"
 
 
+  /*
+    AWS DynamoDB Clients
+   */
+
   val sourcedynamodbclient = new AmazonDynamoDBClient(new BasicAWSCredentials(sourceAccessKey, sourceSecretKey))
   val targetdynamodbclient = new AmazonDynamoDBClient(new BasicAWSCredentials(targetAccessKey, targetSecretKey))
 
